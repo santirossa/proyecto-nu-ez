@@ -1,0 +1,94 @@
+body {
+    background-color: #f9f9f9; /* Color de fondo suave */
+    font-family: 'Georgia', serif; /* Tipografía elegante */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+h2 {
+    text-align: center;
+    color: darkcyan;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+p {
+    line-height: 1.6; /* Mejora la legibilidad */
+    margin: 10px auto; /* Ajusta márgenes automáticos */
+    text-align: center;
+    color: #555; /* Color del texto más suave */
+}
+
+.logo-header {
+    display: block;
+    margin: 0 auto 20px; /* Centrado y margen inferior */
+    width: 450px;
+}
+
+.carousel-item {
+    position: relative;
+    text-align: center; /* Centrar el texto */
+    color: #333; /* Color del texto */
+}
+
+.carrusel {
+    margin:100px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+
+.article-image {
+    width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho */
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;                
+    flex-direction: column;       
+    align-items: center;         
+}
+
+.footer-image1, .footer-image2 {
+    margin: 10px 0; /* Margen para las imágenes del footer */
+}
+
+.footer-image1 {
+    width: 350px; 
+}
+
+.footer-image2 {
+    width: 250px; 
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .carousel-item h1, .carousel-item h2 {
+        font-size: 1.5rem; /* Tamaño de fuente ajustado para pantallas pequeñas */
+    }
+}

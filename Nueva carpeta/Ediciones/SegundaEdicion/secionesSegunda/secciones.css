@@ -1,0 +1,152 @@
+
+
+body {
+    font-family: sans-serif;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+h3 {
+    text-align: center;
+    text-decoration: darkcyan
+
+}
+p {
+    line-height: 30px;
+    margin: 100px;
+    text-align: center;
+}
+
+
+/* NAV/HEADER */
+
+.logo-header {
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    width: 450px;
+    height: auto;
+}
+
+
+
+/* CAROUSEL */
+
+.carrusel {
+    margin:150px;
+}
+
+
+
+
+/* HISTORIA CARPINCHO */
+
+
+
+
+
+
+
+
+/* SECCIONES */
+.ediciones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    max-width: 800px;
+    margin: 20px auto;  
+    justify-content: space-evenly;
+    
+}
+
+.ediciones img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.cultura {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 600px;
+    margin: 20px auto;  
+
+    
+}
+
+
+.cultura img{
+    width: 160px; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+
+.imagen1,.imagen2,.imagen3,.imagen4,.imagen5,.imagen6,.imagen7{
+
+    filter: grayscale(80%);
+}
+
+.imagen1:hover,.imagen2:hover,.imagen3:hover,.imagen4:hover,.imagen5:hover,.imagen6:hover,.imagen7:hover{
+    filter: grayscale(0%);
+}
+
+
+
+
+
+.h1-ediciones {
+    text-decoration: underline;
+    color: orange;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: white;
+    text-align: center;
+    position: center;
+}
+
+.footer-container {
+    display: flex;                
+    flex-direction: column;       
+    align-items: center;         
+    padding: 20px;               
+}
+.footer-image1 {
+    width: 350px; 
+    height: 350px;             
+    height: auto;                
+    margin: 10px 0;              
+}
+
+.footer-image2 {
+    width: 250px; 
+    height: 250px;            
+    height: auto;               
+    margin: 10px 0;              
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+    }
+}
+
+
+@media (max-width: 400px) {
+    .gallery {
+        grid-template-columns: 1fr; /* 1 columna en pantallas muy pequeñas */
+    }
+}
